@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViajaPeruHome">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:elevation="0dp">
+            <androidx.appcompat.widget.Toolbar
+                android:id="@+id/app_bar"
+                style="@style/Widget.ViajaPeru.Toolbal"
+                android:layout_width="match_parent"
+                android:layout_height="56dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="@string/name_toolbar"
+                    android:textAlignment="center"
+                    android:textAllCaps="true"
+                    android:textSize="20sp"
+                    android:textColor="@color/white"
+                    android:letterSpacing="0.2"
+                    android:fontFamily="@font/poppins_bold"/>
+            </androidx.appcompat.widget.Toolbar>
+        </com.google.android.material.appbar.AppBarLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center">
+                <androidx.cardview.widget.CardView
+                    android:layout_width="350dp"
+                    android:layout_height="200dp"
+                    android:layout_marginTop="80dp"
+                    android:elevation="10dp"
+                    app:cardCornerRadius="6dp">
+
+                    <ImageView
+                        android:id="@+id/roundedImageView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/jeison_higuita_kd9_as_sbyz3_q_unsplash_1"
+                        />
+                </androidx.cardview.widget.CardView>
+
+                <TextView
+                    android:id="@+id/product_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:padding="8dp"
+                    android:text="¿Que es Viaja Perú?"
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textColor="@color/gray_800"
+                    />
+
+                <TextView
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/poppins_semibold"
+                    android:justificationMode="inter_word"
+                    android:text="@string/txt_infoApp"
+                    android:textSize="14sp" />
+
+                <RelativeLayout
+                    android:layout_width="350dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="40dp">
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/next_button_toSites"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:padding="11dp"
+                        android:textSize="12sp"
+                        android:text="@string/txt_btn_infoSites"
+                        android:backgroundTint="@color/red_700"
+                        app:cornerRadius="100dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:textColor="@color/white"
+                        />
+
+                    <com.google.android.material.button.MaterialButton
+                        android:id="@+id/next_button_toAgencies"
+                        style="@style/Widget.MaterialComponents.Button.TextButton"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="10dp"
+                        android:fontFamily="@font/poppins_semibold"
+                        android:padding="7sp"
+                        android:text="@string/txt_btn_agencies"
+                        android:textColor="@color/gray_600"
+                        android:textSize="11sp"
+                        app:cornerRadius="100dp" />
+                </RelativeLayout>
+            </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- el patron de los colores va desde el tono mas suave, hasta el tono mas fuerte del respectivo color -->
+    <color name="red_200">#FF9D9D</color>
+    <color name="red_500">#7e1710</color>
+    <color name="red_700">#E20613</color>
+    <color name="gray_200">#C1C1C1</color>
+    <color name="gray_500">#242424</color>
+    <color name="gray_600">#7A7A7A</color>
+    <color name="gray_700">#303030</color>
+    <color name="gray_800">#525252</color>
+    <color name="black">#222222</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViajaPeru_sites_mp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/evan_sanchez_xsm6_ejm1m_p4_unsplash" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/poppins_bold"
+                android:lineSpacingExtra="-18sp"
+                android:text="MACHU PICCHU"
+                android:textAlignment="textStart"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:paddingStart="16sp"
+                app:layout_constraintBottom_toTopOf="@+id/textView"
+                app:layout_constraintHorizontal_bias="0.496"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="1.0" />
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:background="@color/gray_700"
+                android:fontFamily="@font/roboto_bold"
+                android:justificationMode="inter_word"
+                android:padding="16sp"
+                android:text="@string/infomp"
+                android:textColor="@color/gray_200"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.905" />
+
+            <TextView
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/roboto_bold"
+                android:justificationMode="inter_word"
+                android:text="300 000 turistas"
+                android:textAlignment="textEnd"
+                android:textColor="@color/gray_200"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintHorizontal_bias="0.39"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.977" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <com.google.android.material.button.MaterialButton
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="12dp"
+            android:fontFamily="@font/poppins_semibold"
+            android:padding="7sp"
+            android:text="Siguiente"
+            android:textColor="@color/gray_500"
+            android:textSize="11sp"
+            app:cornerRadius="100dp"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    </RelativeLayout>
+</FrameLayout>

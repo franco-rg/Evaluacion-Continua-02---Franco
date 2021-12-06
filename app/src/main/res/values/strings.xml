@@ -1,0 +1,18 @@
+<resources>
+    <string name="name_sentence">La aventura te espera</string>
+    <string name="app_name">Prog. Viaja Perú</string>
+    <string name="name_toolbar">Viaja Perú</string>
+
+    <string name="txt_infoApp">Es un programa organizado por el Ministerio de Comercio Exterior y Turismo (MINCETUR), el cual busca promover la reactivacion a nivel nacional del turismo, brindando informacion de los lugares mas representativos  del pais. \n \nAsi mismo, tambien busca promover a cientos de agencias de viaje peruanas, las cuales mediante una inscripcion pueden ser vistas por todos dentro de la App.</string>
+
+    <!-- buttons -->
+    <string name="txt_btn_go">Comenzar</string>
+    <string name="txt_btn_cardAgency">Ver Agencia</string>
+    <string name="txt_btn_agencies">Consultar Agencias</string>
+    <string name="txt_btn_infoSites">Ver info. de lugares</string>
+
+    <!-- Section sites -->
+    <string name="infoICA">Ica, situada a 5 horas de la capital de Lima, es una region rodeada por desiertos, y es el único lugar formado por planicies; la Cordillera de los Andes se levanta muy al interior. Es famosa por sus vinos; encontrándose en esta zona los más importantes productores de esta bebida en todo el pais. Atractivos como las famosas Lineas de Nazca, un verdadero oasis en el desierto o la reserva nacional de Paracas, esperan por ti por un viaje inolvidable.</string>
+    <string name="infomp">Machu Picchu es una de las 7 maravillas del mundo más visitadas por los turistas, posee hermosas construcciones a base de piedras, que fueron talladas con mucha precisión y detalle, es la obra más importante para los incas por haber sido construida en una montaña agreste e inaccesible, dividida en dos grandes sectores, urbano y agrícola separados por una gran muralla que desciende por la ladera del cerro hasta llegar a las orillas del rio Vilcanota.</string>
+    <string name="agencyName">Nombre</string>
+</resources>

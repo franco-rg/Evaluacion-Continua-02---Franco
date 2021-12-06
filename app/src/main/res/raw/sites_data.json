@@ -1,0 +1,37 @@
+[
+    {
+        "id": "1",
+        "site": "Ica",
+        "url": "https://images.unsplash.com/photo-1569359271440-30c84eb4ab1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=465&q=80",
+        "description": "Ica, situada a 5 horas de la capital de Lima, es una region rodeada por desiertos, y es el único lugar formado por planicies; la Cordillera de los Andes se levanta muy al interior. Es famosa por sus vinos; encontrándose en esta zona los más importantes productores de esta bebida en todo el pais. Atractivos como las famosas Lineas de Nazca, un verdadero oasis en el desierto o la reserva nacional de Paracas, esperan por ti por un viaje inolvidable.",
+        "tourists": "70 000"
+    },
+    {
+        "id": "2",
+        "site": "Macchu Picchu",
+        "url": "https://images.unsplash.com/photo-1461863109726-246fa9598dc3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description": "Machu Picchu es una de las 7 maravillas del mundo más visitadas por los turistas, posee hermosas construcciones a base de piedras, que fueron talladas con mucha precisión y detalle, es la obra más importante para los incas por haber sido construida en una montaña agreste e inaccesible, dividida en dos grandes sectores, urbano y agrícola separados por una gran muralla que desciende por la ladera del cerro hasta llegar a las orillas del rio Vilcanota.",
+        "tourists": "300 000"
+    },
+    {
+        "id": "3",
+        "site": "Arequipa",
+        "url": "https://images.unsplash.com/photo-1573775163196-510a3ff32226?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=328&q=80",
+        "description": "Conocida como la Ciudad Blanca por su arquitectura esculpida en sillar, Arequipa resplandece favorecida por un clima siempre soleado todo el año y un cielo azul que te invitan a caminar y admirar la belleza de sus monumentos, nevados, volcanes y profundos cañones, además de disfrutar de su exquisita gastronomía y una vida nocturna que te animarán a regresar más de una vez.",
+        "tourists": "150 000"
+    },
+    {
+        "id": "4",
+        "site": "Mancora",
+        "url": "https://images.unsplash.com/photo-1631071902017-cd28b02e2543?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=326&q=80",
+        "description": "Máncora es una ciudad situada al norte del Perú a lo largo de la costa. Es conocida por sus playas y las buenas olas para el surf. La ciudad tiene un poco menos de 9.000 habitantes. Esta ciudad de playa en su mayoría atrae a un público más joven por su ambiente divertido y hermosas playas. La temperatura en Máncora nunca está por debajo de los 25° en el invierno y la primavera, y puede llegar a veces hasta por encima de 38° en el verano.",
+        "tourists": "20 000"
+    },
+    {
+        "id": "5",
+        "site": "Amazonas",
+        "url": "https://images.unsplash.com/photo-1574238778303-05c44452ecd5?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+        "description": "Bosques de neblina y páramos con privilegiados microclimas te dan la bienvenida a un departamento donde la historia y la naturaleza están en su máxima expresión. Descubre en Amazonas imponentes paisajes, una flora y fauna envidiable y encuentra en cada una de sus estructuras arquitectónicas, como la enigmÃ¡tica ciudadela de Kuélap, y sus misteriosas tumbas y sarcófagos, un relato diferente.",
+        "tourists": "120 000"
+    }
+]
